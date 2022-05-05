@@ -5,5 +5,20 @@ This code is is being generated using `mvn archetype:generate -DgroupId=com.thin
 
 
 
+
 #### commands to create maven package
 `mvn clean package`
+=======
+#### Commands to create maven package
+mvn clean package
+
+#### Working with the branches
+List local branches :- git branch
+For remote branches :- git branch -r
+For all branches :- git branch -a
+
+#### Create branch from other than current branch or revision using git bash
+
+git branch new-branch-name source-branch-name
+git branch new-branch-name e360cea
+
