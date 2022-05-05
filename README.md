@@ -9,3 +9,8 @@ mvn clean package
 List local branches :- git branch
 For remote branches :- git branch -r
 For all branches :- git branch -a
+
+####create branch from other than current branch or revision using git bash
+
+git branch new-branch-name source-branch-name
+git branch new-branch-name e360cea
