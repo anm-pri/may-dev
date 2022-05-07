@@ -14,6 +14,10 @@ pipeline {
                     archiveArtifacts 'target/*.war'
                 }
             }
+		stage('Deploy') {
+            steps {
+                sh "cp target/my-webapp.war ~/tomcat/webapps/kul.war"
+            }
         }
     }
 }
