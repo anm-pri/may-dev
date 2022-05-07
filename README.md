@@ -30,3 +30,5 @@ git branch new-branch-name e360cea
 
 #### Bulild No 8 Jenkins master branch demo
 
+#### GitHub hook trigger for GITScm polling
+
