@@ -32,3 +32,5 @@ git branch new-branch-name e360cea
 
 #### GitHub hook trigger for GITScm polling
 
+#### Pipeline Jenkins
+
